@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ebd5d5;
+}
+/* Header */
+header{
+  background-color: black;
+  color: white;
+  text-align: left;
+  padding: 20px;
+  font-size: 20px;
+  /* position: sticky;
+  top: 0; */
+}
+/* .head h2{
+    background-color: black;
+    color: white;
+}
+.head{
+   position: relative;
+   left: 30px;
+   top: 20px;
+   width: 300px;
+}
+.head a{
+      text-decoration: none;
+}
+.head h2:hover{
+    text-shadow: 10px 10px 10px rgba(224, 216, 216, 0.842);
+    cursor: pointer;
+} */
+.head{
+    background-color: black;
+    width: 300px;
+    position: relative;
+    top: 20px;
+}
+.head img:hover{
+    cursor: pointer;
+}
+.head a{
+      text-decoration: none;
+      background-color: black;
+}
+
+/* navBar */
+.navBar{
+    display: flex;
+    background-color: black;
+    position: relative;
+   left: 900px;
+   bottom: 80px;
+   width: 400px;
+}
+
+.nav{
+    flex-direction:row ;
+    padding: 10px;
+    background-color: black;
+    border: 2px solid white;
+    margin-inline: 10px;
+    border-radius: 10px; 
+}
+.nav a{
+    background: black;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+.nav:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px rgba(224, 216, 216, 0.842);
+    cursor: pointer;
+}
+/* MENU VAREITIES */
+.flex-container{
+    display: flex;
+    margin-top: 20px;
+}
+.flex{
+    flex: 1;
+}
+.flex1{
+    margin-left: 120px;
+}
+#main{
+    position: relative;
+    bottom: 500px;
+}
+#briyani{
+    box-shadow: 10 20 30px rgba(0,0,0,0.3);
+    margin-top: 20px;
+}
+#briyani h3{
+    margin-left: 70px ;
+    margin-bottom: 50px;  
+    margin-top: 30px;
+}
+#briyani h3:hover{
+    font-family: cursive;
+    color: red;
+    cursor: pointer;
+}
+#briyani h2{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background: blue;
+    color: white;
+    width: 300px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.5s ease;
+    transition: color 0.3s;
+}
+#briyani h2:hover{
+     background: rgb(240, 115, 136);
+     color: black;
+}
+.flex-container img{
+    border-radius: 10px;
+}
+.flex img:hover{
+    transform: translateY(-5px);
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+/* footer */
+footer{
+  background-color:black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
